@@ -1,0 +1,22 @@
+[project]
+name = "item-recommend-system"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "tensorflow==2.15.1",
+    "numpy==1.26.4",
+    "pandas==1.5.3",
+    "scipy==1.11.4",
+    "scikit-learn==1.3.2",
+    "gensim==4.3.2",
+    "networkx==2.8.8",
+    "joblib==1.3.2",
+    "tqdm==4.66.5",
+    "psutil==5.9.8",
+    "h5py==3.10.0",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
