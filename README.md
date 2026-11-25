@@ -1,10 +1,12 @@
-# 商品 Top 50 推荐系统 / Top-50 Product Recommender
+# 商品 Top 50 推荐系统
+
+**简体中文** · [English](README.en.md)
 
 基于用户点击历史生成 50 个商品推荐。系统融合 ItemCF、DeepWalk、Node2Vec 和商品特征四路候选，提取 36 维特征，使用 Wide & Deep 排序。
 
 ## 安装与快速检查
 
-使用 Python 3.11 和 uv。下面两个命令可以在下载数据前运行。
+使用 Python 3.11 和 uv。以下命令均可在下载数据前运行。
 
 ```bash
 uv sync --locked
